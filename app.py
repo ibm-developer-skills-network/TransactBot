@@ -8,3 +8,14 @@ def index():
     transactions = conn.execute('SELECT id, * FROM transactions ORDER BY date DESC').fetchall()
     conn.close()
     return render_template('index.html', transactions=transactions)
+
+# Creating the Prompt Template
+
+
+# Initializing the Database Chain
+
+
+# Interacting with the Database
+
+
+# Running the App
